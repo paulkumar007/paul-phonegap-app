@@ -8,10 +8,11 @@
 
     // Wait for device API libraries to load
     //
-    document.addEventListener("deviceready", onDeviceReady, false);
+    //document.addEventListener("deviceready", onDeviceReady, false);
 
     // device APIs are available
     //
+	/*
     function onDeviceReady() {
         var element = document.getElementById('deviceProperties');
         element.innerHTML = 'Device Name: '     + device.name     + '<br />' +
@@ -21,13 +22,253 @@
                             'Device Model: '    + device.model    + '<br />' +
                             'Device Version: '  + device.version  + '<br />';
     }
-
+*/
     </script>
+	<link rel="shortcut icon" href="img/favicon.ico">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/jquery.vegas.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/magnific-popup.css">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/light.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <p id="deviceProperties">Loading device properties...</p>
-	<center><h3>WELCOME</h3></center>
-	<center><h4>PAUL's 1st APP</h4></center>
-	<center><h5>THANK YOU</h5></center>
+	<div id="mask">
+  <div id="loader"></div>
+</div>
+<a id="menu-toggle" href="#"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand text-center"><a href="#" id="menu-close"><i class="fa fa-times"></i></a></li>
+    <li><a href="#top">Home</a></li>
+    <li><a href="#wedding_invitation">Knot Tying</a></li>
+    <li><a href="#our_family">Feast</a></li>
+    <li><a href="#lovestory">Our Love Story</a></li>
+    <li><a href="#photo_gallery">Little Details</a></li>
+    <li><a href="#contact_us">Contact Us</a></li>
+  </ul>
+</nav>
+<header id="top" class="header clearfix">
+  <div class="marriage_banner">
+    <h1 class="logo_top"><a href="#">Dave <span>weds</span> Jen</a></h1>
+    <br>
+    <div class="banner_timer">
+      <ul>
+        <li><span id="days">00</span>Days</li>
+        <li><span id="hours">00</span>Hours</li>
+        <li><span id="minutes">00</span>Minutes</li>
+        <li><span id="seconds">00</span>Seconds</li>
+      </ul>
+    </div>
+    <div class="banner-line">
+      <h2><span>We inviting you</span> and your family on <span>14 March 2015</span></h2>
+      <br>
+    </div>
+    <div class="top_arrow"><a href="#about_us"><i class="fa fa-chevron-down"></i></a></div>
+  </div>
+</header>
+<section>
+  
+  
+  <article class="wedding_invitation" id="wedding_invitation">
+    <div class="wedding_invitation_parallax">
+      <div class="about_bottom_bg">
+        <div class="container text-center">
+          <h3 class="animated" data-animation="fadeIn" data-animation-delay="100">Knot Tying</h3>
+          <div class="row">
+            <div class="col-md-4 text-center animated" data-animation="fadeInLeft" data-animation-delay="100"><img src="img/flower.png" class="image_resized" alt=""></div>
+            <div class="col-md-8 text-left animated" data-animation="fadeInRight" data-animation-delay="100">
+              
+              <p>The ceremony will be held at Love's Lookout- a picturesque hilltop setting overlooking both of our hometowns, Albury and Wodonga, surrounding Jen's family home in Splitters Creek. </p>
+              <p class="big-text animated" data-animation="fadeIn" data-animation-delay="100"><strong>Ceremony: </strong>4pm<br>
+		<strong>Address:</strong> Odewahn Road, Splitters Creek NSW 2640<br>
+<strong>Get there:</strong> Turn left off Splitters Creek Road onto Odewahn Road (approximately 2.5km from the start of Splitters Creek Road). At the end of Odewahn Road, turn left up the driveway, following the signs.<br>
+
+
+</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article style="background:#fff;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3226.4534671105903!2d146.83978879999998!3d-36.033637399999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b215e71bacadd45%3A0x9de53fcac768a3be!2sOdewahn+Rd%2C+Splitters+Creek+NSW+2640%2C+Australia!5e0!3m2!1sen!2sin!4v1421414250624" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+  </article>
+  <article class="our_family_main" id="our_family">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="animated" data-animation="fadeIn" data-animation-delay="100">Drinking, Dancing and Feasting</h2>
+          <div class="devider_main"><img src="img/devider-gray.jpg" alt=""></div>
+          <p class="big-text animated" data-animation="fadeIn" data-animation-delay="100" style="text-align:left;">The reception will be held at Splitters Creek Hall, a quaint rammed earth building in the middle of a paddock nearby in Splitters Creek. Fun is compulsory, as is good food, good company and great wine (please bring your dancing shoes!).</p>
+        </div>
+      </div>
+      <div class="tab-info-cont animated" data-animation="fadeIn" data-animation-delay="100">
+        <p><strong>Drinks and Canapes:</strong> 5pm<br>
+<strong>Reception:</strong> 6:30pm-midnight<br>
+<strong>Dress:</strong> Cocktail (Ladies- the ceremony and reception are in a paddock so the bride and bridesmaids will be wearing wedges or flats).
+Get there: Follow Riverina Highway towards Howlong, turn right onto Splitters Creek Road. Turn left into Splitters Creek Community Centre (approximately 2km along Splitters Creek Road, follow the signs!).<br>
+
+</p>
+      </div>
+     
+      
+    </div>
+  </article>
+  <article class="lovestory_parallax" id="lovestory">
+    <div class="lovestory_bottom_parallax" id="email">
+      <div class="lovestory_bottom_bg">
+        <div class="container">
+          <h3 class="animated" data-animation="fadeIn" data-animation-delay="100">Our true love story</h3>
+          <div class="row">
+            <div class="col-md-4 text-center animated" data-animation="fadeInLeft" data-animation-delay="100"><img src="img/love-story.png" class="image_resized" alt=""></div>
+            <div class="col-md-8 text-left animated" data-animation="fadeInRight" data-animation-delay="100">
+              <p class="slide_up">We met at school camp. I stole his cool hat and he gave me piggy back rides through the bush tracks. We held hands at the bus stop and fought for first place in PE in year 12 (I won). Our first kiss was in a hammock at the Hippy Shack- a regular weekend hangout. </p>
+	<p>We finished school and ventured overseas together, backpacking across Europe and making lifetime memories, realizing that this was the real deal…
+8 years later, Dave (and Ellie) got down on one knee and popped the question, I finally answered "yes" after asking "have you asked Dad?!" (he later told me that he had taken 18 months to find the right moment to ask Dad, keeping the ring in the car boot!). There was champagne, family and friends- it was perfect!
+We packed our bags and made a sea change to the big smoke, starting a new adventure together.</p>
+<p>I can't wait to marry my best friend, and I know he can't wait either! </p>
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article class="gallery_outer" id="photo_gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="animated" data-animation="fadeIn" data-animation-delay="100">The Little Details</h2>
+          <div class="devider_main"><img src="img/devider-gray.jpg" alt=""></div>
+          <h5 class="big-text animated" data-animation="fadeIn" data-animation-delay="100">Accomdation</h5>
+          <p>If you require accommodation, we suggest the following places in Albury, located 15 minutes from the reception venue;
+          </p>
+          <ul>
+          	<li style="font-size: 20px; line-height: 30px; margin: 5px 0px;">Quest Albury </li>
+            <li style="font-size: 20px; line-height: 30px; margin: 5px 0px;">Artura Albury</li>
+            <li style="font-size: 20px; line-height: 30px; margin: 5px 0px;">Quality Hotel on Olive</li>
+            <li style="font-size: 20px; line-height: 30px; margin: 5px 0px;">Best Western Plus Hovell Tree Park</li>
+          </ul>
+         
+          <p>Or alternatively, bring a tent and find a patch of grass to pitch </p>
+          
+          <h5>Transport</h5>
+          <p>We will organise buses for guests to and from the ceremony and reception. If you require transport, please let us know when you RSVP. We will keep you posted closer to the wedding.</p>
+
+<p>There is parking space at both ceremony and reception venues.</p>
+
+<p>Albury Taxi service.</p>
+
+<h5>Children</h5>
+
+<p>Children are most welcome at the ceremony to share the love, however we ask that our reception is adults only so we can continue the party!</p>
+
+<h5>Gifts</h5>
+<p>We've lived together quite  a while, with all our pots and pans, and as we don't need homely gifts, we've got another plan!</p>
+<p>We know it's not traditional, and not the way it's done, but rather than a wedding list, we'd love a bit of sun!</p>
+<p>So if you'd like to give a gift, and send us on our way, a donation to our honeymoon would really make our day!</p>
+<p>But the choice is really up to you and we would like to say, that the best gift we could receive, is you, here, on our special day.</p>
+<h5>Recovery Brunch</h5>
+<p>To say thank you for making the effort to celebrate with us on our big day, we're planning on having a super chilled brunch the next day, Sunday 15th of March at 10:00am. We would love it if you could join us!</p>
+<p><strong>Where:</strong> 258 Splitters Creek Road Albury NSW 2640</p>
+<p><strong>Time:</strong> 10:00am – 1pm</p>
+
+          
+        </div>
+      </div>
+    </div>
+    
+  </article>
+  
+  <article class="contact_address_cont" id="contact_us">
+    <div class="container">
+      <div class="row contact_address">
+        <div class="col-md-4 text-center address animated" data-animation="flipInY" data-animation-delay="500">
+          <p><i class="fa fa-map-marker"></i><br>
+            <b>Home</b><br>
+            192/24, Lacords, Melbourne.</p>
+        </div>
+        <div class="col-md-4 text-center address animated" data-animation="flipInY" data-animation-delay="600">
+          <p><i class="fa fa-envelope"></i><br>
+            <b>Email</b><br>
+            daverobin4@gmail.com</p>
+        </div>
+        <div class="col-md-4 text-center address animated" data-animation="flipInY" data-animation-delay="700">
+          <p><i class="fa fa-phone"></i><br>
+            <b>Phone</b><br>
+            +44 (000) 000 000</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article class="contact_content" id="contact">
+    <div class="contact_content_parallax">
+      <div class="container">
+        <form method="post">
+          <h3 class="text-center animated" data-animation="fadeIn" data-animation-delay="100">Mail Us</h3>
+          <div class="row animated" id="contact-form" data-animation="fadeInUp" data-animation-delay="700">
+            <div class="col-md-6">
+              <input class="input_text" type="text" name="name" id="contact-name" value="" placeholder="Your Name *">
+            </div>
+            <div class="col-md-6">
+              <input class="input_text" type="text" name="email" id="contact-email" value="" placeholder="Your Email *">
+            </div>
+            <div class="col-md-6">
+              <input class="input_text" type="text" name="phone" id="contact-phone" value="" placeholder="Your Phone *">
+            </div>
+            <div class="col-md-6">
+              <input class="input_text" type="text" name="subject" id="contact-subject" value="" placeholder="Subject *">
+            </div>
+            <div class="col-md-12">
+              <textarea rows="3" cols="5" name="msg" id="contact-msg" placeholder="Your Message *" class="textarea_text"></textarea>
+            </div>
+            <div class="col-md-12" id="contact-error"></div>
+            <div class="col-md-12">
+              <button class="input_button" id="contact-submit">Send a message</button>
+            </div>
+          </div>
+          <div class="row" id="contact-loading"> loading... </div>
+          <div class="row" id="contact-success"> Your message sent sucessfully to our team and they will be in touch with you asap. </div>
+          <div class="row" id="contact-failed"> Error, message sending faild , try after sometime. </div>
+        </form>
+      </div>
+    </div>
+  </article>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <!--<ul class="list-inline footer_icons">
+          <li><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus fa-3x"></i></a></li>
+          <li><a href="#"><i class="fa fa-dropbox fa-3x"></i></a></li>
+        </ul>-->
+        <p>Copyright &copy;2014. All rights reserved</p>
+      </div>
+    </div>
+  </div>
+  <div class="top-scroll"><a href="#top"><i class="fa fa-chevron-up"></i></a></div>
+</footer>
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/jquery.vegas.js"></script>
+<script type="text/javascript" src="js/vegas.js"></script>
+<script type="text/javascript" src="js/forms.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/countdown.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="js/jquery.appear.js"></script>
+<script type="text/javascript" src="js/jquery.easytabs.js"></script>
+<script type="text/javascript" src="js/system.js"></script>
   </body>
 </html>
